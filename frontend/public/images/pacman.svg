@@ -1,0 +1,11 @@
+<svg viewBox="-25 -25 50 50" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pac-Man body -->
+  <circle cx="0" cy="0" r="22" fill="#fffa1e"/>
+  <!-- Eye -->
+  <circle cx="6" cy="-10" r="3" fill="#2b1b19"/>
+  <!-- Mouth animation -->
+  <path d="M0,0 L22,18 L22,-18 Z" fill="#2b1b19">
+    <animate attributeName="d" dur="0.4s" repeatCount="indefinite"
+      values="M0,0 L22,18 L22,-18 Z; M0,0 L22,2 L22,-2 Z; M0,0 L22,18 L22,-18 Z"/>
+  </path>
+</svg>
