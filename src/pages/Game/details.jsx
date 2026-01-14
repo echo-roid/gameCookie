@@ -369,7 +369,7 @@ export function GameDetails(props) {
 				{isGamePlayed &&
 				<>
 				<iframe
-					src={gameData.game_url}
+				    src={${import.meta.env.VITE_GAME_URL}/${gameData.game_url}/index.html
 					// src="http://localhost:8000"
 					title={gameData.title}
 					width="100%" 
